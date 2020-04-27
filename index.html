@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<style type="text/css">
+		button{
+			background: orange;
+			padding: 20px;
+			width: 200px;
+			border-style: none;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body id="cuerpo">
+	<button onclick="fondo('negro')">NEGRO</button>
+
+</body>
+<script type="text/javascript">
+	var a = document.getElementById('cuerpo');
+
+	function fondo(color){
+		if (color == "negro"){
+			a.style.backgroundColor = "black";
+			a.style.color = "white";
+		}else{}
+	}
+</script>
+</html>
